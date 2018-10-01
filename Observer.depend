@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1537832589 source:/home/denis/Programming/C++/CodeBlocks/Observer/main.cpp
+	"WeatherStation.h"
+	"Phone.h"
+	<iostream>
+
+1537810726 source:/home/denis/Programming/C++/CodeBlocks/Observer/src/IObservee.cpp
+	"IObservee.h"
+
+1537818529 /home/denis/Programming/C++/CodeBlocks/Observer/include/IObservee.h
+	<iostream>
+	<vector>
+	"IObserver.h"
+
+1537819904 /home/denis/Programming/C++/CodeBlocks/Observer/include/IObserver.h
+
+1537819909 source:/home/denis/Programming/C++/CodeBlocks/Observer/src/IObserver.cpp
+	"IObserver.h"
+
+1537827217 source:/home/denis/Programming/C++/CodeBlocks/Observer/src/WeatherStation.cpp
+	"WeatherStation.h"
+
+1537826375 /home/denis/Programming/C++/CodeBlocks/Observer/include/WeatherStation.h
+	<iostream>
+	<vector>
+	<string>
+	"IObservee.h"
+
+1537832404 source:/home/denis/Programming/C++/CodeBlocks/Observer/src/Phone.cpp
+	"Phone.h"
+
+1537832646 /home/denis/Programming/C++/CodeBlocks/Observer/include/Phone.h
+	<iostream>
+	"IObserver.h"
+	"WeatherStation.h"
+
+1537833028 source:/home/denis/Programming/C++/CodeBlocks/Observer/src/TempDisplay.cpp
+	"TempDisplay.h"
+
+1537832931 /home/denis/Programming/C++/CodeBlocks/Observer/include/TempDisplay.h
+	<iostream>
+	"IObserver.h"
+	"WeatherStation.h"
+
